@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     // Get Current Location on mount
     weather.fetchCurrentUserLocation();
-  }, []);
+  }, [weather]);
 
   return (
     <div className="App">
